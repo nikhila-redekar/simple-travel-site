@@ -1,41 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Namma Bengaluru</title>
-    <style>
-        /* CSS for styling the table */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        
-        }
-
-        td {
-            padding: 5px;
-            text-align: center;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+    <meta charset="utf-8">
+    <title>Welcome to Bethany's Pie Shop!</title>
+    <meta name="author" content="Bethany's Pie Shop">
+    <meta name="description" content="Store front for Bethany's Pie Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body style="background-color: blanchedalmond;">
-    <h2 style="text-align: center;" >Namma Bengaluru</h2>
-    <table style="align-items: center;">
-        <tr>
-            <td><img src="./iscon.jpeg" alt="Image 1"></td>
-            <td><img src="./shanmukha-jpeg.jpeg" alt="Image 2"></td>
+
+<body>
+    <header id="mainheader">
+        <nav>
+            <ul>
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">All tourist places</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div style="width:1000px;margin-left: auto;margin-right: auto;">
+        <aside id="leftmenu">
             
-        </tr>
-        <tr>
-            <td><img src="./nandi-hills.jpeg" alt="Image 4"></td>
-            <td><img src="./vidhan-soudha.jpeg" alt="Image 5"></td>
+
+            <header>
+                <h4>Other Locations</h4>
+            </header>
+            <ul>
+                <li><a href="#">Nandi Hills</a></li>
+                <li><a href="#">Museum</a></li>
+                <li><a href="#">Lalbagh</a></li>
+                <li><a href="#">Cubbon Park</a></li>
+                <li><a href="#">Promotions</a></li>
+            </ul>
+
+            <input type="search" class="searchbox" placeholder="Search other locations" />
+        </aside>
+        <main id="main">
+            <article>
+                <header>
+                    <h1 style="font-size:35px;color: brown">Welcome to Namma Bengaluru</h1>
+                </header>
+                <figure>
+                    <img src="./banner.jpeg" width="600" alt="Bethany in her pie shop" />
+                    <figcaption>Vidhan Soudha</figcaption>
+                </figure>
+                
+                <h2>History</h2>
+                <p>Bangalore, oficially known as Bengaluru. The city's history dates back to around 890, as per the old Kannada stone inscription found at the Nageshwara Temple in Begur, Bangalore. In 1537, Kempé Gowdā, a feudal ruler under the Vijayanagara Empire, established a mud fort, considered the foundation of modern Bangalore and its oldest areas, or pétés, which still exist. After the fall of the Vijayanagara Empire, Kempe Gowda declared independence; in 1638, a large Adil Shahi Bijapur army defeated Kempe Gowda III, and Bangalore came under Shahaji Bhonsle as a jagir, which later became his capital. The Mughals later captured Bangalore and sold it to Maharaja Devaraja Wodeyar II of the Kingdom of Mysore.[14] When Haider Ali seized control of the kingdom, Bangalore's administration passed into his hands.
+                </p>
             
-        </tr>
-    </table>
+               
+            </article>
+
+        
+        </main>
+
+        <footer>
+            
+        
+            <p><small>&copy; Nikhila@pluralsight - All rights reserved</small></p>
+            <p>Contact us via <a href="#">email</a></p>
+            <p><small><a href="#">Created by Nikhila</a></small></p>
+        </footer>
+    </div>
 </body>
+
 </html>
